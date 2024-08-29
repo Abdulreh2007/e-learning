@@ -11,7 +11,7 @@ const HeroContent = () => {
     
     <TextGenerateEffect duration={2} filter={false} words={words}  />;
     <p className="mt-6 text-sm md:text-base text-white text-opacity-60">
-    The best online education platform offers comprehensive courses, flexible learning, expert instructors, and certifications for career advancement.
+    The best online education platform offers comprehensive courses flexible learning expert instructors and certifications for career advancement
     </p>
     <div className="mt-8 flex items-center space-x-4">
         <button className="md:px12 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg bg-green-700 hover:bg-green-900 hover:underline">Get Started</button>
