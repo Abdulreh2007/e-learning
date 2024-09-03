@@ -1,7 +1,8 @@
 "use client"
 import Image from 'next/image';
 import React from 'react'
-import { FaStar } from 'react-icons/fa';
+import { FaFile, FaStar, FaUser, FaUsers } from 'react-icons/fa';
+import { FaUserGroup } from 'react-icons/fa6';
 import Tilt from 'react-parallax-tilt';
 type Props ={
     course: {
@@ -49,8 +50,18 @@ const CourseCard = ({course}:Props) => {
           </div>
           <span className='text-base text-orange-800 font-semibold'>({course.reviewNumber} Reviews)</span>
         </div>
-        <div className='mt-6 mb-6 w-full h-[2px] bg-gray-500 opacity-15' >
-
+        <div className='mt-6 mb-6 w-full h-[2px] bg-gray-500 opacity-15' ></div>
+        <div className='flex mb-8 items-center justify-between'>
+          {/* lesson */}
+          <div className='flex items-center space-x-2'>
+            <FaFile className='w-4 h-4 text-orange-600'/>
+            <p className='text-base font-semibold text-gray-800'>{course.lessons} Lesson</p>
+          </div>
+          {/*  */}
+          <div className='flex items-center space-x-2'>
+            <FaUserGroup className='w-4 h-4 text-orange-600 hover:text-orange-200'/>
+            <p className='text-base font-semibold text-gray-800'>{course.students} Students</p>
+          </div>
         </div>
         </div>
 

@@ -3,7 +3,7 @@ import { FaArrowRight, FaAward } from 'react-icons/fa'
 
 const About = () => {
   return (
-    <div className='pt-16 pb-16'>
+    <div  className='pt-16 pb-16'>
     {/* grid */}
     <div className='w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-16'> 
     {/* first */}

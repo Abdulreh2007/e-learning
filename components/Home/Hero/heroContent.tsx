@@ -1,5 +1,4 @@
 "use client";
-import { Main } from "next/document";
 import { TextGenerateEffect } from "../../ui/textgenerate";
  
 const words = `Best Online Platform For Education.`;
@@ -7,10 +6,10 @@ const words = `Best Online Platform For Education.`;
 
 const HeroContent = () => {
     return (
-        <div>
+        <div  >
     
     <TextGenerateEffect duration={2} filter={false} words={words}  />;
-    <p className="mt-6 text-sm md:text-base text-white text-opacity-60">
+    <p data-aos="fade-up" className=" text-sm md:text-base text-white text-opacity-60">
     The best online education platform offers comprehensive courses flexible learning expert instructors and certifications for career advancement
     </p>
     <div className="mt-8 flex items-center space-x-4">
