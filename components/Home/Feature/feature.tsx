@@ -12,10 +12,13 @@ const Feature = () => {
           {/* image */}
           <div className='mr-10'>
             <Tilt>
+              <div data-aos="zoom-in" 
+                      data-aos-anchor-placement='top-center' >             
             <Image src='/images/f.png'
             width={1000}
             height={1000}
             alt='hero' />
+             </div>
             </Tilt>
           </div>
           {/* content */}

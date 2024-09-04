@@ -7,7 +7,7 @@ const About = () => {
     {/* grid */}
     <div className='w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-16'> 
     {/* first */}
-    <div>
+    <div data-aos="fade-right" data-aos-anchor-placement='top-center'>
 
     
     <div className='flex items-center space-x-4'>
@@ -27,7 +27,7 @@ const About = () => {
     </div>
     {/* second */}
 
-    <div>
+    <div data-aos="fade-left" data-aos-anchor-placement='top-center'  data-aos-delay='150'>
       <div>
         <h1 className='text-7xl lg:text-8xl font-bold text-black text-opacity-5'>01</h1>
         <div className='-mt-10'>

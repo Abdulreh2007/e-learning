@@ -10,6 +10,7 @@ const HeroImage = () => {
             <Image src='/images/hero.png'
             width={800}
             height={600}
+            data-aos="fade-left" data-aos-delay='1050'
             alt='hero' />
         </div>
     </Tilt>

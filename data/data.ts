@@ -13,7 +13,7 @@ export const coursesData = [
     {
       id: 2,
       image: "/images/c2.jpg",
-      title: "Advanced Python Programming",
+      title: "Python Programming",
       price: 69.99,
       author: "Jane Smith",
       reviewNumber: 670,
